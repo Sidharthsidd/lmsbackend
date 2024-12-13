@@ -89,8 +89,9 @@ async function runChat(userInput) {
         role: "model",
         parts: [
           {
-            text: `Hello! I can assist you with any programming problems or questions you have. Please describe your issue or share the code snippet you're working with, and I will provide a detailed solution or explanation.`,
+            text: `Hello! I can assist you with any programming problems or questions you have. Please describe your issue or share the code snippet you're working with, and I will provide a detailed solution or explanation.remove stars or asterisk`,
           },
+          
         ],
       },
     ],
